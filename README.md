@@ -20,7 +20,7 @@ A scalable, AI-driven cybersecurity homelab and Security Operations Center (SOC)
 - **RAM**: 32GB
 - **Storage**: 1TB free
 - **CPU**: Core i7 (multi-core with hyper-threading)
-- **Virtualization**: VMware Workstation Pro
+- **Virtualization**: VMware Workstation Pro 17
 
 ### Future Vision
 Scale to enterprise-grade networking hardware and clustered servers as well as advanced computers for AI (e.g., NVIDIA DGX) to integrate deep learning models for advanced threat analysis.
@@ -32,21 +32,24 @@ Scale to enterprise-grade networking hardware and clustered servers as well as a
 The homelab consists of multiple VMs, each serving a distinct role, connected via a virtual network:
 
 1. **SOC VM**  
-   - **Purpose**: Centralized monitoring and threat detection.  
-   - **Tools**: Wazuh (SIEM), Python-based AI anomaly detection.  
+   - **Purpose**: Centralized monitoring and threat detection.
+   - **OS**: Linux Ubuntu LTS 24.04.2
+   - **Tools**: Wazuh (SIEM), Python-based AI anomaly detection.
    - **AI Agent**: Analyzes logs and network traffic for anomalies.
 
 2. **Penetration Testing VM**  
-   - **Purpose**: Simulate ethical hacking and vulnerability scanning.  
-   - **Tools**: Parrot OS (or Kali Linux), Metasploit, Nmap.  
+   - **Purpose**: Simulate ethical hacking and vulnerability scanning.
+   - **OS**: Linux ParrotOS
+   - **Tools**: Metasploit, Nmap.  
    - **AI Agent**: Automates attack scripting and result analysis.
 
 3. **Target VM**  
-   - **Purpose**: Vulnerable system for testing attacks.  
+   - **Purpose**: Vulnerable system for testing attcks.  
    - **Tools**: Metasploitable, DVWA (Damn Vulnerable Web App).
 
 4. **AI Agent Controller VM**  
-   - **Purpose**: Coordinates AI agents across the homelab.  
+   - **Purpose**: Coordinates AI agents across the homelab.
+   - **OS**: Linux Ubuntu LTS 24.04.2
    - **Tools**: Python, TensorFlow/PyTorch, Flask API.
 
 5. **Network Simulation VM**  
