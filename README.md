@@ -55,7 +55,3 @@ The homelab consists of multiple VMs, each serving a distinct role, connected vi
 
 ### Diagram
 *(To be added: High-level architecture diagram in `./docs/`)*
-
----
-
-## Repository Structure
