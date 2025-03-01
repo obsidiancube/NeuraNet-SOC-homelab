@@ -13,7 +13,7 @@ A scalable, AI-driven cybersecurity homelab and Security Operations Center (SOC)
 - Build a functional SOC with AI-driven threat detection and reporting.
 - Automate penetration testing workflows using AI agents.
 - Create a modular, scalable architecture documented via GitHub.
-- Serve as a portfolio piece for transitioning into cybersecurity and solutions architect roles.
+- Serve as a portfolio piece for transitioning away from my UX/UI career of 15 years into cybersecurity and solutions architect roles.
 
 ### Current Hardware
 - **Host OS**: Parrot OS (Linux-based, security-focused)
